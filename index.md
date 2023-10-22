@@ -33,7 +33,7 @@ _thewords_ just becomes a longer string every time a message is added.
 
 Above a screenshot of the public and private keys, created to log into the remote computer with.out a password, is displayed. The command ls was used.
 
-![Image](withoutpasswword.png
+![Image](withoutpasswword.png)
 
 This screenshot shows proof of the keys working and logging in without a password 
 
