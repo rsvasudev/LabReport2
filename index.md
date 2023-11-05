@@ -24,12 +24,12 @@ handleRequest is called.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 Relevant arguments are the url and what's added on the end of the url once the server is started. 
-_num_ is a relevant field as it helps creates a numbered list and is initially set to 0 and icnreases by one everytime someone adds a mesage.
-_thewords_ is also initally set to 0 and contains all the text displayed on the page.
+`num` is a relevant field as it helps creates a numbered list and is initially set to 0 and icnreases by one everytime someone adds a mesage.
+`thewords` is also initally set to 0 and contains all the text displayed on the page.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
-_num_ increases by one everytime an add-message request is submitted to create a numbered list
-_thewords_ just becomes a longer string every time a message is added.
+`num` increases by one everytime an add-message request is submitted to create a numbered list. For example after hello is added its value is 1 and then after hello again is added its value becomes 2.
+`thewords` just becomes a longer string every time a message is added. The value fo the string after all the commands were performed was "1. hello\n 2. hello again\n".
 
 ## Part 2
 
