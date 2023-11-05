@@ -20,7 +20,7 @@ This was the result of using add-message
 This is the way add-message was used. The same process was used to get hello initially.
 
 **Which methods in your code are called?**
-handleRequest is called.
+handleRequest is called. The main method is also called and inside this method the start method from the server class is called.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 Relevant arguments are the url and what's added on the end of the url once the server is started. 
@@ -29,13 +29,13 @@ Relevant arguments are the url and what's added on the end of the url once the s
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 `num` increases by one everytime an add-message request is submitted to create a numbered list. For example after hello is added its value is 1 and then after hello again is added its value becomes 2.
-`thewords` just becomes a longer string every time a message is added. The value fo the string after all the commands were performed was "1. hello\n 2. hello again\n".
+`thewords` just becomes a longer string every time a message is added. The value of the string after all the commands were performed was "1. hello\n2. hello again\n" and after the first command was "1. hello\n"
 
 ## Part 2
 
 ![Image](Thekeys.png)
 
-Above a screenshot of the public and private keys, created to log into the remote computer with.out a password, is displayed. The command ls was used.
+Above a screenshot of the public and private keys, created to log into the remote computer with.out a password, is displayed. The command ls was used at the bottom of the screenshot 
 
 ![Image](withoutpasswword.png)
 
