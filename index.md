@@ -35,8 +35,8 @@ Relevant arguments are the url and what's added on the end of the url once the s
 
 ![Image](Thekeys.png)
 
-Above a screenshot of the public and private keys, created to log into the remote computer with.out a password, is displayed. The command ls was used at the bottom of the screenshot
-Path to the public key is /Users/rohanvasudev/.ssh/id_rsa.pub. 
+Above a screenshot of the public and private keys, created to log into the remote computer with.out a password, is displayed. The command ls was used at the bottom of the screenshot to see inside the .ssh file.
+Path to the public key is /Users/rohanvasudev/.ssh/id_rsa.pub. Path to the private key /Users/rohanvasudev/.ssh/id_rsa.
 
 ![Image](withoutpasswword.png)
 
