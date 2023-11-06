@@ -42,6 +42,8 @@ Path to the public key is /Users/rohanvasudev/.ssh/id_rsa.pub. Path to the priva
 
 This screenshot shows proof of the keys working and logging in without a password 
 
+Note: would have attached screenshot with me using ls in authorized file directory to see public path but did keygen on school computer and dont hav access to it at the moment. Therefore assume there is a screenshot of me doing the following function with public key attached ls ~/.ssh/authorized_keys. And for private key: ls ~/.ssh/id_rsa. From this, we would get the paths described above. 
+
 ## Part 3
 **In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.**
 I learned how to remotely connect to the computer in week 2 by using our own personal code. Now, I am able to use this remote computer from anywhere, which I thought was extremely neat and impressive. You simply just have to use ssh and then the specific email and then enter your password. In fact, I don't even need the password due to the keys I created.
